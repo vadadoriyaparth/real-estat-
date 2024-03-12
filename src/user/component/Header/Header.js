@@ -46,7 +46,7 @@ function Header(props) {
               <select className="form-control form-control-lg form-control-a" id="bedrooms">
                 <option>Any</option>
                 <option>01</option>
-                <option>02</option>
+                <option>02</option>xx
                 <option>03</option>
               </select>
             </div>
