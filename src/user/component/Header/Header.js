@@ -100,7 +100,7 @@ function Header(props) {
       <span />
       <span />
     </button>
-    <a className="navbar-brand text-brand" href="index.html">Shree Ram<span className="color-b">Agency</span></a>
+    <a className="navbar-brand text-brand" href="index.html"> <b><i>Shree Ram</i></b><span className="color-b">Agency</span></a>
     <button type="button" className="btn btn-link nav-search navbar-toggle-box-collapse d-md-none" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-expanded="false">
       <span className="fa fa-search" aria-hidden="true" />
     </button>
