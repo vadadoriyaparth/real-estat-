@@ -809,7 +809,7 @@ function Home(props) {
                       </p>
                     </div>
                     <div className="testimonial-author-box ">
-                      <img src="img/post-2.jpg" alt className="testimonial-avatar" />
+                      <img src="img/post-1.jpg" alt className="testimonial-avatar" />
                       <h5 className="testimonial-author">Pablo &amp; Emma</h5>
                     </div>
                   </div>
