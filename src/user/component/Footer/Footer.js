@@ -21,7 +21,7 @@ function Footer(props) {
               <ul className="list-unstyled">
                 <li className="color-a">
                   <span className="color-text-a">Phone .</span> contact@example.com</li>
-                <li className="color-a">
+                <li className="color-a">        
                   <span className="color-text-a">Email .</span> +54 356 945234</li>
               </ul>
             </div>
