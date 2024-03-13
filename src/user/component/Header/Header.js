@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 function Header(props) {
     return (
@@ -107,31 +108,31 @@ function Header(props) {
     <div className="navbar-collapse collapse justify-content-center" id="navbarDefault">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <a className="nav-link active" href="index.html">Home</a>
+          <NavLink className="nav-link active" to={"/"}>Home</NavLink>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="about.html">About</a>
+          <NavLink className="nav-link" to={"/About"}>About</NavLink>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="property-grid.html">Property</a>
+          <NavLink className="nav-link" to={"/Proparty"}>Property</NavLink>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="blog-grid.html">Blog</a>
+          <NavLink className="nav-link" to={"/Blog"}>Blog</NavLink>
         </li>
         <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <NavLink  className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Pages
-          </a>
+          </NavLink>
           <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a className="dropdown-item" href="property-single.html">Property Single</a>
-            <a className="dropdown-item" href="blog-single.html">Blog Single</a>
-            <a className="dropdown-item" href="agents-grid.html">Agents Grid</a>
-            <a className="dropdown-item" href="agent-single.html">Agent Single</a>
+            <NavLink className="dropdown-item" to={"/Propartysing"} >Property Single</NavLink>
+            <NavLink className="dropdown-item" to={"/Blogsin"} >Blog Single</NavLink>
+            <NavLink className="dropdown-item" to={"/Agentgrid"} >Agents Grid</NavLink>
+            <NavLink className="dropdown-item" to={"/Agentsing"} >Agent Single</NavLink>
           </div>
           
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="contact.html">Contact</a>
+          <NavLink className="nav-link" to={"/Contact"} >Contact</NavLink>
         </li>
       </ul>
     </div>
