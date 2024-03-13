@@ -108,31 +108,31 @@ function Header(props) {
     <div className="navbar-collapse collapse justify-content-center" id="navbarDefault">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <NavLink className="nav-link active" to={"/"}>Home</NavLink>
+          <NavLink className="nav-link active" to={'/'}>Home</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to={"/About"}>About</NavLink>
+          <NavLink className="nav-link" to={'/About'}>About</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to={"/Proparty"}>Property</NavLink>
+          <NavLink className="nav-link" to={'/Proparty'}>Property</NavLink>
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to={"/Blog"}>Blog</NavLink>
+          <NavLink className="nav-link" to={'/Blog'}>Blog</NavLink>
         </li>
         <li className="nav-item dropdown">
-          <NavLink  className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <NavLink className="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Pages
           </NavLink>
           <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-            <NavLink className="dropdown-item" to={"/Propartysing"} >Property Single</NavLink>
-            <NavLink className="dropdown-item" to={"/Blogsin"} >Blog Single</NavLink>
-            <NavLink className="dropdown-item" to={"/Agentgrid"} >Agents Grid</NavLink>
-            <NavLink className="dropdown-item" to={"/Agentsing"} >Agent Single</NavLink>
+            <NavLink className="dropdown-item" to={'/Propartysing'}>Property Single</NavLink>
+            <NavLink className="dropdown-item" to={'/Blogsin'}>Blog Single</NavLink>
+            <NavLink className="dropdown-item" to={'/Agentgrid'}>Agents Grid</NavLink>
+            <NavLink className="dropdown-item" to={'/Agentsing'}>Agent Single</NavLink>
           </div>
           
         </li>
         <li className="nav-item">
-          <NavLink className="nav-link" to={"/Contact"} >Contact</NavLink>
+          <NavLink className="nav-link" to={"/Contact"}>Contact</NavLink>
         </li>
       </ul>
     </div>
