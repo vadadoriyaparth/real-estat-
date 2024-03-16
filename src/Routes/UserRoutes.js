@@ -22,6 +22,7 @@ function UserRoutes(props) {
       <Route path="/" element={<Home />}></Route>
       <Route path="/About" element={<About />}></Route>
       <Route path="/Proparty" element={<Proparty />}></Route>
+      <Route path="/Proparty/:id" element={<Proparty />}></Route>
       <Route path="/Blog" element={<Blog />}></Route>
       <Route path="/Contact" element={<Contact />}></Route>
       <Route path="/Propartysing" element={<Propartysing />}></Route>

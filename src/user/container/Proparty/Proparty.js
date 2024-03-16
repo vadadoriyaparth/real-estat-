@@ -1,7 +1,11 @@
 import React from 'react';
+import { useParams } from 'react-router-dom';
 
 function Proparty(props) {
+  const {id} = useParams();
+  console.log(id);
     return (
+     
         <div>
         {/*/ Intro Single star /*/}
         <section className="intro-single">

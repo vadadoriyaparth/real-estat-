@@ -1,0 +1,46 @@
+{
+    "Propaty": [
+        {
+            "id": "1",
+            "name": "206 Mount <br /> Olive Road Two",
+            "rate": 12.000,
+            "image": "img/property-6.jpg",
+            "Area":"340m",
+            "Beds":2,
+            "Baths":2,
+            "Garages":2
+
+        },
+        {
+            "id": "1",
+            "name": "157 West<br /> Central Park",
+            "rate": 12.000,
+            "image": "img/property-3.jpg",
+            "Area":"340m",
+            "Beds":2,
+            "Baths":2,
+            "Garages":2
+
+        }, {
+            "id": "1",
+            "name": "206 Mount <br /> Olive Road Two",
+            "rate": 12.000,
+            "image": "img/property-7.jpg",
+            "Area":"340m",
+            "Beds":2,
+            "Baths":2,
+            "Garages":2
+
+        }, {
+            "id": "1",
+            "name": "206 Mount <br /> Olive Road Two",
+            "rate": 12.000,
+            "image": "img/property-10.jpg",
+            "Area":"340m",
+            "Beds":2,
+            "Baths":2,
+            "Garages":2
+
+        }
+    ]
+}
