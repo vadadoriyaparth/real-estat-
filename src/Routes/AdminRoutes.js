@@ -6,7 +6,10 @@ function AdminRoutes(props) {
     return (
         <div>
     <Routes>
-        <Route exact path='/Product' element={<Product/>} />
+    
+    <Route exact path='/Product' element={<Product/>} />
+
+       
     </Routes>
             
         </div>

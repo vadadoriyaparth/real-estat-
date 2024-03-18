@@ -283,7 +283,7 @@ function Proparty(props) {
         </section>
         {/*/ Property Single End /*/}
       </div>
-      
+        
   
 
     );
